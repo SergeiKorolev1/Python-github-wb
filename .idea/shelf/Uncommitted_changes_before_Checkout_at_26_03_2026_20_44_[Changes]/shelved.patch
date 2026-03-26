@@ -1,0 +1,49 @@
+Index: square.py
+===================================================================
+diff --git a/square.py b/square.py
+deleted file mode 100644
+--- a/square.py	(revision 5457bced0ea8aa99c1876420bdd89dcae6ba323b)
++++ /dev/null	(revision 5457bced0ea8aa99c1876420bdd89dcae6ba323b)
+@@ -1,6 +0,0 @@
+-def area(a):
+-    return a * a
+-
+-
+-def perimeter(a):
+-    return 4 * a
+Index: circle.py
+===================================================================
+diff --git a/circle.py b/circle.py
+deleted file mode 100644
+--- a/circle.py	(revision 5457bced0ea8aa99c1876420bdd89dcae6ba323b)
++++ /dev/null	(revision 5457bced0ea8aa99c1876420bdd89dcae6ba323b)
+@@ -1,9 +0,0 @@
+-import math
+-
+-
+-def area(r):
+-    return math.pi * r * r
+-
+-
+-def perimeter(r):
+-    return 2 * math.pi * r
+Index: README.md
+===================================================================
+diff --git a/README.md b/README.md
+deleted file mode 100644
+--- a/README.md	(revision 5457bced0ea8aa99c1876420bdd89dcae6ba323b)
++++ /dev/null	(revision 5457bced0ea8aa99c1876420bdd89dcae6ba323b)
+@@ -1,13 +0,0 @@
+-# Math formulas
+-
+-## Area
+-
+-- Circle: S = πR²
+-- Rectangle: S = ab
+-- Square: S = a²
+-
+-## Perimeter
+-
+-- Circle: P = 2πR
+-- Rectangle: P = 2a + 2b
+-- Square: P = 4a
